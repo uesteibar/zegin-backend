@@ -1,0 +1,25 @@
+{
+  "name": "zegin-backend",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unai2unai/zegin-backend.git"
+  },
+  "author": "uesteibar and unaigra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unai2unai/zegin-backend/issues"
+  },
+  "homepage": "https://github.com/unai2unai/zegin-backend",
+  "devDependencies": {
+    "express": "^4.10.6",
+    "mongoose": "~3.6.11",
+    "method-override": "^2.1.2",
+    "body-parser": "^1.5.1"
+  }
+}

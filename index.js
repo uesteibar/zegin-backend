@@ -46,6 +46,7 @@ app.get('/*', function(req, res) {
         });
 
 router.get('/api/events', EventCtrl.findEvents);
+router.get('/api/events/:k/:D', EventCtrl.findRoundMapEvents);
 router.post('/api/events', EventCtrl.addEvent);
 router.get('/api/events/:id', EventCtrl.findById);
 router.put('/api/events/:id', EventCtrl.updateEvent);

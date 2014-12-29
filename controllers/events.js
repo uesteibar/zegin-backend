@@ -2,22 +2,53 @@
 var mongoose = require('mongoose');
 var Event  = mongoose.model('Event');
 
+
 //GET - Return all evets in the DB
 exports.findEvents = function(req, res) {
     Event.find(function(err, events) {
-    if(err) res.send(500, err.message);
+        if(err) res.send(500, err.message);
 
-    console.log('GET /events')
+        console.log('GET /events')
         res.status(200).jsonp(events);
+    });
+};
+
+exports.findRoundMapEvents = function(req,res){
+    var geolib = require('geolib');
+    console.log(req);
+    Event.find(function(err, events) {
+        if(err) res.send(500, err.message);
+        var validEvents = [];
+        var i = 0;
+        for (i=0; i<events.length; i++){
+            console.log(events[i].locationData.k);
+            console.log(events[i].locationData.D);
+            console.log(req.params.k);
+            console.log(req.params.D);
+            var isInside = geolib.isPointInCircle(
+                {latitude: events[i].locationData.k, longitude: events[i].locationData.D},
+                {latitude: req.params.k,longitude: req.params.D},
+                10000
+                );
+
+            if (isInside){
+                validEvents.push(events[i]);
+            }
+
+
+        }
+
+        console.log('GET /events by geo')
+        res.status(200).jsonp(validEvents);
     });
 };
 
 //GET - Return an Event with specified ID
 exports.findById = function(req, res) {
     Event.findById(req.params.id, function(err, event) {
-    if(err) return res.send(500, err.message);
+        if(err) return res.send(500, err.message);
 
-    console.log('GET /event/' + req.params.id);
+        console.log('GET /event/' + req.params.id);
         res.status(200).jsonp(event);
     });
 };
@@ -40,7 +71,7 @@ exports.addEvent= function(req, res) {
 
     event.save(function(err, event) {
         if(err) return res.send(500, err.message);
-    res.status(200).jsonp(event);
+        res.status(200).jsonp(event);
     });
 };
 
@@ -53,7 +84,7 @@ exports.updateEvent = function(req, res) {
 
         event.save(function(err) {
             if(err) return res.send(500, err.message);
-      res.status(200).jsonp(event);
+            res.status(200).jsonp(event);
         });
     });
 };
@@ -64,7 +95,7 @@ exports.deleteEvent = function(req, res) {
     Event.findById(req.params.id, function(err, event) {
         event.remove(function(err) {
             if(err) return res.send(500, err.message);
-      res.status(200);
+            res.status(200);
         })
     });
 };

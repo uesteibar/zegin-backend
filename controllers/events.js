@@ -16,6 +16,7 @@ exports.findEvents = function(req, res) {
 exports.findRoundMapEvents = function(req,res){
     var geolib = require('geolib');
     console.log(req);
+    console.log(req.params.kmr);
     Event.find(function(err, events) {
         if(err) res.send(500, err.message);
         var validEvents = [];
@@ -28,7 +29,7 @@ exports.findRoundMapEvents = function(req,res){
             var isInside = geolib.isPointInCircle(
                 {latitude: events[i].locationData.k, longitude: events[i].locationData.D},
                 {latitude: req.params.k,longitude: req.params.D},
-                10000
+                req.params.kmr*1000
                 );
 
             if (isInside){
@@ -59,8 +60,10 @@ exports.addEvent= function(req, res) {
     
     var date = new Date(req.body.date);
     var time = new Date(req.body.time);
-    req.body.date = new Date(date.getMonth(), date.getDay(), date.getFullYear(), time.getHours(), time.getMinutes(), 0);
-
+    // req.body.date = new Date(date.getMonth(), date.getDay(), date.getFullYear(), time.getHours(), time.getMinutes(), 0);
+    date.setHours(time.getHours());
+    date.setMinutes(time.getMinutes());
+    req.body.date = date;
     console.log(req.body);
     var event = new Event({
         name:           req.body.name,

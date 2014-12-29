@@ -41,15 +41,15 @@ router.all('/*', function (req, res, next) {
     next();
 });
 
-app.get('/', function(req, res) {
+app.get('/*', function(req, res) {
             res.sendFile('./public/index.html', {"root": __dirname}); // load our public/index.html file
         });
 
-router.get('/events', EventCtrl.findEvents);
-router.post('/events', EventCtrl.addEvent);
-router.get('/events/:id', EventCtrl.findById);
-router.put('/events/:id', EventCtrl.updateEvent);
-router.delete('/events/:id', EventCtrl.deleteEvent);
+router.get('/api/events', EventCtrl.findEvents);
+router.post('/api/events', EventCtrl.addEvent);
+router.get('/api/events/:id', EventCtrl.findById);
+router.put('/api/events/:id', EventCtrl.updateEvent);
+router.delete('/api/events/:id', EventCtrl.deleteEvent);
 
 
 app.listen(3000, function() {

@@ -8,13 +8,13 @@ zegin.config(['$routeProvider', '$locationProvider', function($routeProvider, $l
 
 
         // nerds page that will use the NerdController
-        .when('/events', {
+        .when('/zegin-dashboard', {
             templateUrl: 'views/events.html',
             controller: 'EventsCtrl'
         })
 
 
-    .otherwise({ redirectTo: '/events' });
+    .otherwise({ redirectTo: '/zegin-dashboard' });
 
     $locationProvider.html5Mode({
 	  enabled: true,

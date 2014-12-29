@@ -32,8 +32,10 @@ exports.addEvent= function(req, res) {
 
     console.log(req.body);
     var event = new Event({
-        name:    req.body.name,
-        date: 	  req.body.date
+        name:           req.body.name,
+        date: 	        req.body.date,
+        locationText:   req.body.locationText,
+        locationData:   req.body.locationData
     });
 
     event.save(function(err, event) {

@@ -1,4 +1,4 @@
-var zegin = angular.module("zegin", ['ngRoute']);
+var zegin = angular.module("zegin", ['ngRoute', 'ngAutocomplete']);
 
 var options = {};
 options.api = {};

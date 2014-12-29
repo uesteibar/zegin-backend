@@ -6,6 +6,9 @@ zegin.controller('NewEventCtrl', function($scope, EventsService) {
 
 
     $scope.saveEvent = function(){
+
+        $scope.event.locationData = $scope.placeRaw.geometry.location;
+
         EventsService.saveEvent($scope.event).then(function () {
             console.log($scope.event);
             $scope.event = {

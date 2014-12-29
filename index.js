@@ -26,6 +26,19 @@ app.use(router);
 
 var EventCtrl = require('./controllers/events');
 
+
+// CORS header securiy
+router.all('/*', function (req, res, next) {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
+    res.header("Access-Control-Allow-Headers", "X-Requested-With, Content-type, Accept, Authorization");
+    next();
+});
+
+app.get('*', function(req, res) {
+            res.sendfile('./public/views/index.html'); // load our public/index.html file
+        });
+
 router.get('/events', EventCtrl.findEvents);
 router.post('/events', EventCtrl.addEvent);
 router.get('/events/:id', EventCtrl.findById);

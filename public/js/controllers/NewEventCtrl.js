@@ -15,10 +15,10 @@ zegin.controller('NewEventCtrl', function($scope, EventsService) {
                 name: "",
                 date: 0
             };
-            toastr.success("Email saved");
+            // toastr.success("Email saved");
         }, function (err) {
             console.log(err);
-            toastr.error("Email couldn't be saved");
+            // toastr.error("Email couldn't be saved");
         });
     };
 });

@@ -21,21 +21,27 @@ exports.findRoundMapEvents = function(req,res){
         if(err) res.send(500, err.message);
         var validEvents = [];
         var i = 0;
+        var today = new Date();
+        today.setHours(today.getHours() - 5);
+        today.setMinutes(0);
+
         for (i=0; i<events.length; i++){
-            console.log(events[i].locationData.k);
-            console.log(events[i].locationData.D);
-            console.log(req.params.k);
-            console.log(req.params.D);
-            var isInside = geolib.isPointInCircle(
-                {latitude: events[i].locationData.k, longitude: events[i].locationData.D},
-                {latitude: req.params.k,longitude: req.params.D},
-                req.params.kmr*1000
-                );
 
-            if (isInside){
-                validEvents.push(events[i]);
+            if (events[i].date > today){
+                console.log(events[i].locationData.k);
+                console.log(events[i].locationData.D);
+                console.log(req.params.k);
+                console.log(req.params.D);
+                var isInside = geolib.isPointInCircle(
+                    {latitude: events[i].locationData.k, longitude: events[i].locationData.D},
+                    {latitude: req.params.k,longitude: req.params.D},
+                    req.params.kmr*1000
+                    );
+
+                if (isInside){
+                    validEvents.push(events[i]);
+                }
             }
-
 
         }
 

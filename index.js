@@ -1,7 +1,8 @@
 var express = require("express"),
     app = express(),
     bodyParser  = require("body-parser"),
-    methodOverride = require("method-override");
+    methodOverride = require("method-override"),
+
     mongoose = require('mongoose');
 
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -14,13 +15,18 @@ mongoose.connect('mongodb://localhost/events', function(err, res) {
     console.log('Connected to Database');
 });
 
+
+
+    app.use(express.static(__dirname + '/public'));
+
+   		
+
+
 var events = require('./models/event')(app, mongoose);
 
 var router = express.Router();
 
-router.get('/', function(req, res) {
-   res.send("Hello World!");
-});
+
 
 app.use(router);
 
@@ -35,8 +41,8 @@ router.all('/*', function (req, res, next) {
     next();
 });
 
-app.get('*', function(req, res) {
-            res.sendfile('./public/views/index.html'); // load our public/index.html file
+app.get('/', function(req, res) {
+            res.sendFile('./public/index.html', {"root": __dirname}); // load our public/index.html file
         });
 
 router.get('/events', EventCtrl.findEvents);

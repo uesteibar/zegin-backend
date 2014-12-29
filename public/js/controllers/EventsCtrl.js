@@ -1,4 +1,3 @@
-// public/js/controllers/MainCtrl.js
 zegin.controller('EventsCtrl', function($scope, EventsService) {
 	$scope.events = [];
     $scope.refreshEvents = function(){

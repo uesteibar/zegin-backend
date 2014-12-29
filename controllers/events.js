@@ -25,8 +25,12 @@ exports.findById = function(req, res) {
 //POST - Insert an new Event in the DB
 exports.addEvent= function(req, res) {
     console.log('POST');
-    console.log(req.body);
+    
+    var date = new Date(req.body.date);
+    var time = new Date(req.body.time);
+    req.body.date = new Date(date.getMonth(), date.getDay(), date.getFullYear(), time.getHours(), time.getMinutes(), 0);
 
+    console.log(req.body);
     var event = new Event({
         name:    req.body.name,
         date: 	  req.body.date

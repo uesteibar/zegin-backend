@@ -10,14 +10,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Zegin</a>
+      <a class="navbar-brand" href="/zegin-dashboard">Zegin</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="/zegin-dashboard">Inicio <span class="sr-only">(current)</span></a></li>
-        <li><a href="/zegin-nuevo">Nuevo evento</a></li>
+        <li><a href="/zegin-new">Nuevo evento</a></li>
       </ul>
       
     </div><!-- /.navbar-collapse -->
@@ -31,7 +31,7 @@
 
 <div class="panel panel-default" ng-repeat="event in events">
   <div class="panel-body">
-    Evento: {{event._id}}
+    Evento: {{event.name}} | Fecha: {{event.date | date:"MM/dd/yyyy 'a las' h:mma"}}
   </div>
 </div>
 

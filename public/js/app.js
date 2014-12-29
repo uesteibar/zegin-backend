@@ -16,6 +16,10 @@ zegin.config(['$routeProvider', '$locationProvider', function($routeProvider, $l
             templateUrl: 'views/events.html',
             controller: 'EventsCtrl'
         })
+        .when('/zegin-new', {
+            templateUrl: 'views/new_event.html',
+            controller: 'NewEventCtrl'
+        })
 
 
     .otherwise({ redirectTo: '/zegin-dashboard' });

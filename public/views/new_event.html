@@ -1,0 +1,54 @@
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/zegin-dashboard">Zegin</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="/zegin-dashboard">Inicio</a></li>
+        <li class="active"><a href="/zegin-new">Nuevo evento <span class="sr-only">(current)</span></a></li>
+      </ul>
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="container">
+  <form class="form-horizontal">
+    <fieldset>
+      <div class="form-group">
+        <legend class="col-lg-10">Nuevo Evento</legend>
+        <button class="btn btn-primary btn-lg-1" ng-click="saveEvent()">Guardar</button>
+      </div>
+
+      <div class="form-group">
+        <label for="name" class="col-lg-1 control-label">Nombre</label>
+        <div class="col-lg-11">
+          <input ng-model="event.name" type="text" class="form-control" id="name" placeholder="Nombre del evento">
+        </div>
+      </div>
+      <div class="form-group">
+      <label for="date" class="col-lg-1 control-label">Fecha</label>
+        <div class="col-lg-11">
+         <input type="date" placeholder="Fecha del evento" ng-model="event.date" />
+       </div>
+
+       <div class="form-group">
+      <label for="time" class="col-lg-1 control-label">Fecha</label>
+        <div class="col-lg-11">
+         <input type="time" placeholder="Hora del evento" ng-model="event.time" />
+       </div>
+
+
+     </fieldset>
+   </form>
+
+ </div>

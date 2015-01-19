@@ -1,0 +1,630 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Cerc",
+				"CercaniasCtrl"
+			],
+			[
+				"setm",
+				"setMinutes  (function)"
+			],
+			[
+				"set",
+				"setHours  (function)"
+			],
+			[
+				"find",
+				"findRoundMapEvents"
+			],
+			[
+				"geo",
+				"geolib"
+			],
+			[
+				"rq",
+				"require"
+			],
+			[
+				"ge",
+				"geolib"
+			],
+			[
+				"loca",
+				"locationData"
+			],
+			[
+				"location",
+				"locationData"
+			],
+			[
+				"locatio",
+				"locationData"
+			],
+			[
+				"locat",
+				"locationData"
+			],
+			[
+				"sav",
+				"saveEvent"
+			],
+			[
+				"New",
+				"NewEventCtrl"
+			],
+			[
+				"Ev",
+				"EventsService"
+			],
+			[
+				"$rou",
+				"$routeProvider	AngularJS"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"log",
+				"logger"
+			],
+			[
+				"Eve",
+				"EventsCtrl"
+			],
+			[
+				"$locatio",
+				"$locationProvider	AngularJS"
+			],
+			[
+				"de",
+				"delete"
+			],
+			[
+				"dele",
+				"deleteEvent"
+			],
+			[
+				"err",
+				"error"
+			],
+			[
+				"node",
+				"nodewebkit"
+			],
+			[
+				"getE",
+				"getEmail"
+			],
+			[
+				"email",
+				"emailID"
+			],
+			[
+				"$route",
+				"$routeParams	AngularJS"
+			],
+			[
+				"cfp",
+				"cfpLoadingBar"
+			],
+			[
+				"emai",
+				"emails"
+			],
+			[
+				"lists",
+				"listsToSelect"
+			],
+			[
+				"subj",
+				"subjects"
+			],
+			[
+				"em",
+				"emails"
+			],
+			[
+				"ema",
+				"emaillists"
+			],
+			[
+				"emaill",
+				"emaillist"
+			],
+			[
+				"subje",
+				"subjectData"
+			],
+			[
+				"angula",
+				"angularjs"
+			],
+			[
+				"add",
+				"address"
+			],
+			[
+				"addre",
+				"addresses"
+			],
+			[
+				"curren",
+				"currentList"
+			],
+			[
+				"search",
+				"searchAddress"
+			],
+			[
+				"bord",
+				"border-style"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"cu",
+				"cur	cursor: ${pointer};"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"acc",
+				"account"
+			],
+			[
+				"accou",
+				"accounts"
+			],
+			[
+				"lasti",
+				"lastIndexEmailList"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"acco",
+				"accounts"
+			],
+			[
+				"ng-switch",
+				"ng-switch-when	AngularJS"
+			],
+			[
+				"save",
+				"saveEmailList"
+			],
+			[
+				"deleteEmail",
+				"deleteEmailList"
+			],
+			[
+				"update",
+				"updateEmailList"
+			],
+			[
+				"deleteem",
+				"deleteEmailList"
+			],
+			[
+				"savee",
+				"saveEmailList"
+			],
+			[
+				"getem",
+				"getEmailLists"
+			],
+			[
+				"last",
+				"lastIndexEmailList"
+			],
+			[
+				"ng-sitch",
+				"ng-switch-when	AngularJS"
+			],
+			[
+				"hea",
+				"header"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"selec",
+				"selectedAccount"
+			],
+			[
+				"ad",
+				"address"
+			],
+			[
+				"sele",
+				"selectedAccount"
+			],
+			[
+				"trans",
+				"transporter"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"accoun",
+				"accounts"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"new",
+				"newsletterjs"
+			],
+			[
+				"Settings",
+				"SettingsCtrl"
+			],
+			[
+				"lastIndex",
+				"lastIndexUser"
+			],
+			[
+				"contr",
+				"controller	AngularJS"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"my",
+				"myIndexedDB"
+			],
+			[
+				"indexe",
+				"indexedDBProvider"
+			],
+			[
+				"Cuenta",
+				"CuentaAhorro"
+			],
+			[
+				"_",
+				"__init__"
+			],
+			[
+				"check",
+				"checkCorriente"
+			],
+			[
+				"che",
+				"checkStatus  (function)"
+			],
+			[
+				"h",
+				"HDD"
+			],
+			[
+				"corrie",
+				"corrienteState"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/User/webkit.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 602.0
+	},
+	"console":
+	{
+		"height": 593.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/uesteibar/DevelopmentProyects/pebble/cercanias-for-pebble/renfe-api/controllers/cercanias.js",
+		"/Users/uesteibar/DevelopmentProyects/pebble/cercanias-for-pebble/renfe-api/server.js",
+		"/Users/uesteibar/DevelopmentProyects/pebble/cercanias-for-pebble/renfe-api/README.md",
+		"/Users/uesteibar/DevelopmentProyects/pebble/cercanias-for-pebble/renfe-api/Procfile",
+		"/Users/uesteibar/DevelopmentProyects/pebble/cercanias-for-pebble/renfe-api/package.json",
+		"/Users/uesteibar/DevelopmentProyects/zegin/zegin-backend/models/event.js",
+		"/Users/uesteibar/DevelopmentProyects/zegin/zegin-backend/public/js/controllers/NewEventCtrl.js",
+		"/Users/uesteibar/DevelopmentProyects/zegin/zegin-backend/public/views/new_event.html",
+		"/Users/uesteibar/DevelopmentProyects/zegin/zegin-backend/node_modules/geolib/dist/geolib.js",
+		"/Users/uesteibar/DevelopmentProyects/zegin/zegin-backend/public/js/services/EventsService.js",
+		"/Users/uesteibar/DevelopmentProyects/zegin/zegin-backend/public/index.html",
+		"/Users/uesteibar/DevelopmentProyects/zegin/zegin-backend/public/libs/angular-autocomplete/ngAutocomplete.js",
+		"/Users/uesteibar/DevelopmentProyects/zegin/zegin-backend/public/js/app.js",
+		"/Users/uesteibar/DevelopmentProyects/zegin/zegin-backend/public/views/events.html",
+		"/Users/uesteibar/DevelopmentProyects/zegin/zegin-backend/bower.json",
+		"/Users/uesteibar/DevelopmentProyects/zegin/zegin-backend/package.json",
+		"/Users/uesteibar/DevelopmentProyects/zegin/zegin-backend/controllers/events.js",
+		"/Users/uesteibar/DevelopmentProyects/zegin/zegin-backend/index.js",
+		"/Users/uesteibar/DevelopmentProyects/zegin/zegin-backend/public/js/controllers/EventsCtrl.js",
+		"/Users/uesteibar/DevelopmentProyects/zegin/zegin-backend/public/libs/angular-native-picker/build/angular-datepicker.js",
+		"/Users/uesteibar/DevelopmentProyects/zegin/zegin-backend/public/views/index.html",
+		"/Users/uesteibar/DevelopmentProyects/zegin/zegin-backend/.bowerrc",
+		"/Users/uesteibar/DevelopmentProyects/webkit/newsletterjs/.gitignore",
+		"/Users/uesteibar/DevelopmentProyects/webkit/newsletterjs/js/controllers/NewEmailCtrl.js",
+		"/Users/uesteibar/DevelopmentProyects/webkit/newsletterjs/gruntfile.js",
+		"/Users/uesteibar/DevelopmentProyects/webkit/newsletterjs/package.json",
+		"/Users/uesteibar/DevelopmentProyects/webkit/newsletterjs/js/controllers/EmailsCtrl.js",
+		"/Users/uesteibar/DevelopmentProyects/webkit/newsletterjs/partials/emails.html",
+		"/Users/uesteibar/DevelopmentProyects/webkit/newsletterjs/js/app.js",
+		"/Users/uesteibar/DevelopmentProyects/webkit/newsletterjs/js/services/indexedDBService.js",
+		"/Users/uesteibar/DevelopmentProyects/webkit/newsletterjs/partials/newEmail.html",
+		"/Users/uesteibar/DevelopmentProyects/webkit/newsletterjs/js/controllers/SettingsCtrl.js",
+		"/Users/uesteibar/DevelopmentProyects/webkit/newsletterjs/js/controllers/HeaderCtrl.js",
+		"/Users/uesteibar/DevelopmentProyects/webkit/newsletterjs/index.html",
+		"/Users/uesteibar/DevelopmentProyects/Angular-Workshop/angular-1/app/partials/view2.html",
+		"/Users/uesteibar/DevelopmentProyects/Angular-Workshop/angular-1/app/partials/view1.html",
+		"/Users/uesteibar/DevelopmentProyects/Angular-Workshop/angular-1/app/index.html",
+		"/Users/uesteibar/DevelopmentProyects/Angular-Workshop/angular-1/app/css/style.css",
+		"/Users/uesteibar/DevelopmentProyects/Angular-Workshop/angular-1/app/js/app.js",
+		"/Users/uesteibar/DevelopmentProyects/Angular-Workshop/angular-1/app/js/controllers.js",
+		"/Users/uesteibar/DevelopmentProyects/Angular-Workshop/angular-1/package.json",
+		"/Users/uesteibar/DevelopmentProyects/Foundation proyects/proyects/uesteibar-io/uesteibar-backend/controllers/postsCtrl.js",
+		"/Users/uesteibar/DevelopmentProyects/Foundation proyects/proyects/uesteibar-io/uesteibar-backend/controllers/userCtrl.js",
+		"/Users/uesteibar/DevelopmentProyects/webkit/newsletterjs/css/loading-bar.css",
+		"/Users/uesteibar/DevelopmentProyects/webkit/newsletterjs/css/style.css",
+		"/Users/uesteibar/DevelopmentProyects/webkit/newsletterjs/js/lib/angular-animate.min.js",
+		"/Users/uesteibar/DevelopmentProyects/webkit/newsletterjs/js/lib/angular-animate.min.js.map",
+		"/Users/uesteibar/DevelopmentProyects/webkit/newsletterjs/css/angular-multi-select.css",
+		"/Users/uesteibar/DevelopmentProyects/webkit/newsletterjs/js/lib/angular-multi-select.js",
+		"/Users/uesteibar/DevelopmentProyects/webkit/newsletterjs/js/lib/angularjs-dropdown-multiselect.min.js",
+		"/Users/uesteibar/DevelopmentProyects/webkit/newsletterjs/partials/settings-emaillists.html",
+		"/Users/uesteibar/DevelopmentProyects/webkit/newsletterjs/partials/settings-accounts.html",
+		"/Users/uesteibar/DevelopmentProyects/webkit/newsletterjs/partials/settings.html",
+		"/Users/uesteibar/DevelopmentProyects/webkit/newsletterjs/js/controllers/HomeCtrl.js",
+		"/Users/uesteibar/DevelopmentProyects/webkit/newsletterjs/LICENSE",
+		"/Users/uesteibar/DevelopmentProyects/webkit/newsletterjs/partials/home.html",
+		"/Users/uesteibar/DevelopmentProyects/Bootstrap proyects/uesteibar.io/uesteibar.github.io/app/partials/adminPosts.html",
+		"/Users/uesteibar/DevelopmentProyects/Bootstrap proyects/startbootstrap-agency-1.0.0/index.html",
+		"/Users/uesteibar/DevelopmentProyects/webkit/newsletterjs/js/lib/textAngular-rangy.min.js",
+		"/Users/uesteibar/DevelopmentProyects/webkit/newsletterjs/css/font-awesome.min.css",
+		"/Users/uesteibar/DevelopmentProyects/webkit/newsletterjs/css/bootstrap.css",
+		"/Users/uesteibar/DevelopmentProyects/webkit/newsletterjs/js/lib/wysiwyg.js",
+		"/Users/uesteibar/Library/Application Support/Sublime Text 3/Packages/User/webkit.sublime-build",
+		"/Users/uesteibar/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/uesteibar/DevelopmentProyects/Foundation proyects/proyects/uesteibar-io/uesteibar-backend/models/post.js",
+		"/Users/uesteibar/DevelopmentProyects/Foundation proyects/proyects/uesteibar-io/uesteibar-backend/server.js",
+		"/Users/uesteibar/DevelopmentProyects/Foundation proyects/proyects/uesteibar-io/uesteibar-backend/package.json",
+		"/Users/uesteibar/DevelopmentProyects/Foundation proyects/proyects/uesteibar-io/uesteibar-backend/node_modules/bcrypt/CHANGELOG.md",
+		"/Users/uesteibar/DevelopmentProyects/Foundation proyects/proyects/uesteibar-io/uesteibar-backend/node_modules/cors/CONTRIBUTING.md",
+		"/Users/uesteibar/DevelopmentProyects/Foundation proyects/proyects/uesteibar-io/uesteibar-backend/node_modules/mongoose/contRun.sh",
+		"/Users/uesteibar/DevelopmentProyects/Foundation proyects/proyects/uesteibar-io/uesteibar-backend/node_modules/email-templates/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/CONTRIBUTORS",
+		"/Users/uesteibar/DevelopmentProyects/Foundation proyects/proyects/uesteibar-io/uesteibar-backend/node_modules/mongoose/node_modules/mpromise/test/promises.Aplus.js",
+		"/Users/uesteibar/DevelopmentProyects/Foundation proyects/proyects/uesteibar-io/uesteibar-backend/node_modules/body-parser/index.js",
+		"/Users/uesteibar/DevelopmentProyects/Foundation proyects/proyects/uesteibar-io/uesteibar-backend/node_modules/mongodb/lib/mongodb/commands/insert_command.js",
+		"/Users/uesteibar/DevelopmentProyects/Foundation proyects/proyects/uesteibar-io/uesteibar-backend/node_modules/email-templates/node_modules/juice2/node_modules/jsdom/node_modules/cssstyle/lib/properties/webkitMarginStart.js",
+		"/Users/uesteibar/DevelopmentProyects/Foundation proyects/proyects/uesteibar-io/uesteibar-backend/node_modules/email-templates/node_modules/juice2/node_modules/superagent/docs/tail.html",
+		"/Users/uesteibar/DevelopmentProyects/Foundation proyects/proyects/uesteibar-io/uesteibar-backend/models/user.js",
+		"/Users/uesteibar/DevelopmentProyects/CEBANC/SdGE/Eval1/coding/pythonHerencia/pythonHerencia1_UEsteibar.py",
+		"/Users/uesteibar/DevelopmentProyects/CEBANC/SdGE/Eval1/coding/pythonPOO/pythonPOO1_UEsteibar.py",
+		"/Users/uesteibar/DevelopmentProyects/CEBANC/SdGE/Eval1/coding/pythonObjetosMeI/pythonObjetosMeI2_UEsteibar.py",
+		"/Users/uesteibar/DevelopmentProyects/CEBANC/SdGE/Eval1/coding/pythonObjetosMeI/pythonObjetosMeI1_UEsteibar.py",
+		"/Users/uesteibar/DevelopmentProyects/CEBANC/SdGE/Eval1/coding/pythonFunciones/pythonFunciones2_UEsteibar.py",
+		"/Users/uesteibar/DevelopmentProyects/CEBANC/SdGE/Eval1/coding/pythonFunciones/pythonFunciones1_UEsteibar.py",
+		"/Users/uesteibar/DevelopmentProyects/CEBANC/SdGE/Eval1/coding/pythonObjetosMeI/pythonObjetosMeI1_UEsteibar",
+		"/Users/uesteibar/DevelopmentProyects/CEBANC/SdGE/Eval1/coding/pythonExcepciones/pythonExcepciones1_UEsteibar.py",
+		"/Users/uesteibar/DevelopmentProyects/CEBANC/SdGE/Eval1/coding/pythonBucles/pythonBucles1_UEsteibar.py",
+		"/Users/uesteibar/DevelopmentProyects/CEBANC/SdGE/Eval1/coding/pythonBucles/pythonBucles2_UEsteibar.py",
+		"/Users/uesteibar/DevelopmentProyects/CEBANC/SdGE/Eval1/coding/pythonFunciones/pythonFunciones1_UEsteibar",
+		"/Users/uesteibar/DevelopmentProyects/CEBANC/SdGE/Eval1/coding/pythonExcepciones/pythonExcepciones2_UEsteibar.py"
+	],
+	"find":
+	{
+		"height": 91.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"toastr",
+			"route",
+			"findEvents",
+			"editEmail",
+			"require",
+			"route",
+			"emails",
+			"toastr",
+			"	$scope.emaillist = {name:\"\", addresses: []};\n",
+			"newAddres",
+			"deleteadress",
+			"openList",
+			"loadTab",
+			"lastIndexProject",
+			"<tab",
+			"tab>",
+			"tab",
+			"toastr",
+			"view",
+			"about",
+			"		",
+			"\" ",
+			"../fonts/",
+			"deleteEmail",
+			"tasks",
+			"task",
+			"Task",
+			"js",
+			"r",
+			",\n",
+			"req",
+			"res.hea",
+			"1"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 25.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "package.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 311.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

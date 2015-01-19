@@ -17,17 +17,20 @@ exports.findRoundMapEvents = function(req,res){
     var geolib = require('geolib');
     console.log(req);
     console.log(req.params.kmr);
-    Event.find(function(err, events) {
-        if(err) res.send(500, err.message);
-        var validEvents = [];
-        var i = 0;
-        var today = new Date();
+
+    var today = new Date();
         today.setHours(today.getHours() - 5);
         today.setMinutes(0);
 
+    Event.find({"date": {$gt: today}},function(err, events) {
+        if(err) res.send(500, err.message);
+        var validEvents = [];
+        var i = 0;
+        
+
         for (i=0; i<events.length; i++){
 
-            if (events[i].date > today){
+            // if (events[i].date > today){
                 console.log(events[i].locationData.k);
                 console.log(events[i].locationData.D);
                 console.log(req.params.k);
@@ -41,7 +44,7 @@ exports.findRoundMapEvents = function(req,res){
                 if (isInside){
                     validEvents.push(events[i]);
                 }
-            }
+            // }
 
         }
 
